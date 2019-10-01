@@ -25,12 +25,7 @@ body {
     height: 100%;
 }
 
-.home .content-area {
-    background: white;
-    width: 65%;
-    margin-left: 35%;
-    height: 100%;
-}
+
 
 .home .info-area .logo {
     background: white;
@@ -67,3 +62,35 @@ body {
     font-weight: 300;
 
 }
+
+.home .content-area {
+    background: white;
+    width: 65%;
+    margin-left: 35%;
+    height: 100%;
+
+
+}
+
+.home .content-area .img-container {
+    display: inline-block;
+    position: relative;
+
+}
+
+.home .content-area .user-image {
+    position: absolute;
+    left: -250px;
+    width: 500px;
+    top: 100px;
+    height: 750px;
+    background: url(/img/test-1.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.home .content-area .headline-container {}
+
+.home .content-area .headline-container .headline {}
