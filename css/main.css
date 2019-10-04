@@ -19,6 +19,7 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .color {
@@ -50,7 +51,7 @@ a {
 .btn-skills {
     padding: 15px 55px;
     border-radius: 20px;
-    border: 1px solid var(--green);
+    border: 2px solid var(--green);
     color: var(--green);
 }
 
@@ -107,6 +108,10 @@ body {
     font-weight: 300;
     color: white;
 
+}
+
+.icon-links {
+    color: white;
 }
 
 .home .content-area {
