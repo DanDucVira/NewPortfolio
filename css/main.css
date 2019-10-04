@@ -96,7 +96,7 @@ body {
 }
 
 .home .info-area .info-box h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: white;
     margin: 1rem 0;
     font-weight: 700;
@@ -112,6 +112,9 @@ body {
 
 .icon-links {
     color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .home .content-area {
@@ -165,4 +168,5 @@ body {
 
 .home .content-area .headline-container .headline p {
     padding-bottom: 55px;
+    line-height: 1.4;
 }
