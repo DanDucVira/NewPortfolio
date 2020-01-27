@@ -34,6 +34,7 @@
       -ms-flex-align: center;
           align-items: center;
   font-size: 2.5rem;
+  font-family: 'Dancing Script', cursive;
 }
 
 ul {
@@ -59,12 +60,21 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .headline-text {
@@ -77,6 +87,10 @@ ul {
   color: #0F4C75;
 }
 
+.headline-text-sub {
+  font-size: 3.5rem;
+}
+
 .headline-text .btn {
   margin-top: 2rem;
   background: #0F4C75;
@@ -84,6 +98,7 @@ ul {
   padding: 2rem 6rem;
   color: white;
   font-size: 1.8rem;
+  cursor: pointer;
 }
 
 .headline-img {
@@ -92,7 +107,42 @@ ul {
 }
 
 svg {
-  padding-right: 8rem;
+  padding-right: 5rem;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #0F4C75;
+}
+
+.about-img {
+  padding: 8rem 6rem;
+}
+
+.about-img img {
+  width: 550px;
+  height: 450px;
+  border-radius: 2rem;
+}
+
+.about-text p {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.about-text h2 {
+  font-size: 3.5rem;
+  color: white;
+  text-transform: uppercase;
 }
 
 #HTML {
@@ -134,12 +184,17 @@ svg {
   padding: 0;
 }
 
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
 html {
   font-size: 62.5%;
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  padding: 1rem 0rem;
 }
 
 ul {
