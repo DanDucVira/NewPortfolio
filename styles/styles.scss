@@ -148,6 +148,8 @@ footer .social-media a {
 
 /*Mobile styles*/
 @media screen and (max-width:842px) {
+
+
     .headline {
         width: 100%;
     }
@@ -230,5 +232,47 @@ footer .social-media a {
         opacity: 0;
 
 
+    }
+
+    .headline-container {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .headline-text h1 {
+        font-size: 3rem;
+    }
+
+    .headline-text-sub {
+        font-size: 2rem;
+    }
+
+
+    .headline-img {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    svg {
+        width: 100%;
+        margin: 0rem;
+        padding: 0rem;
+        height: 50vh;
+
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer h4 {
+        padding-top: 2rem;
+    }
+
+    footer .social-media {
+
+        text-align: center;
     }
 }

@@ -280,5 +280,41 @@ a {
   .menu-check:checked ~ .burger span:nth-child(2) {
     opacity: 0;
   }
+  .headline-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .headline-text h1 {
+    font-size: 3rem;
+  }
+  .headline-text-sub {
+    font-size: 2rem;
+  }
+  .headline-img {
+    margin: 0rem;
+    padding: 0rem;
+  }
+  svg {
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    height: 50vh;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  footer h4 {
+    padding-top: 2rem;
+  }
+  footer .social-media {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
