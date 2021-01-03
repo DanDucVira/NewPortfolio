@@ -31,8 +31,10 @@ nav {
 .nav-links {
 	display: flex;
 	justify-content: space-around;
-	flex: 1 1 20rem;
 	font-size: 2.5rem;
+}
+.nav-links li {
+	padding: 0 3.5rem;
 }
 
 /*headline section styles*/
