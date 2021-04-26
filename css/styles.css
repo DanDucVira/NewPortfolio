@@ -582,6 +582,12 @@ footer p {
 
   .services {
     padding: 80px 0;
+
+  }
+
+  .services-intro {
+    width: 100%;
+    padding: 0;
     margin: 0;
   }
 
@@ -599,7 +605,6 @@ footer p {
   }
 
   .technologies-intro h2 {
-
     text-align: center;
   }
 
@@ -658,7 +663,7 @@ footer p {
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  .about-text p {}
+
 
   .portfolio-container {
     grid-template-columns: repeat(3, 1fr);
