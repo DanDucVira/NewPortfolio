@@ -275,7 +275,7 @@ nav {
   padding: 120px;
 }
 
-.services-container h3 {
+.services-container p {
   font-size: 2rem;
   padding-top: 2rem;
   color: #0f4c75;
@@ -546,7 +546,7 @@ footer p {
   }
 
   .about-me-intro h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
 
   }
 
