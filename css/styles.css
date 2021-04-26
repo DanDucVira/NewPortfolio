@@ -4,8 +4,14 @@
   padding: 0;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Oswald', sans-serif;
+  position: relative
 }
 
 html {
@@ -274,7 +280,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px;
+  padding: 120px;
 
 }
 
@@ -288,6 +294,11 @@ nav {
   grid-template-columns: repeat(4, 1fr);
   gap: 80px;
   text-align: center;
+}
+
+.tech-box img {
+  width: 96px;
+  height: 96px;
 }
 
 /*Portfolio styles*/
@@ -558,7 +569,8 @@ footer p {
   .about-text {
     width: 100%;
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 30px;
+
     font-size: 0.8rem;
   }
 
@@ -589,6 +601,8 @@ footer p {
     grid-template-columns: repeat(1, 1fr);
   }
 
+
+
   .portfolio {
     padding: 80px 0;
   }
@@ -596,6 +610,12 @@ footer p {
   .portfolio-container {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+  }
+
+  .portfolio-container .portfolio-box img {
+    width: 300px;
+    height: 300px;
+
   }
 
   .contact-me {
