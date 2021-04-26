@@ -124,6 +124,11 @@ nav {
   width: 50%;
 }
 
+.headline-text-sub {
+  padding-bottom: 50px;
+  ;
+}
+
 .headline-img {
   width: 50%;
 
@@ -146,7 +151,9 @@ nav {
   cursor: pointer;
   padding: 2rem 6rem;
   font-size: 2rem;
-  margin: 3.5rem 0;
+
+
+
 }
 
 .btn-portfolio:hover {
@@ -162,7 +169,7 @@ nav {
   color: #0f4c75;
   border: none;
   cursor: pointer;
-  padding: 2rem 4rem;
+  padding: 2rem 6rem;
   font-size: 2rem;
 }
 
@@ -316,8 +323,8 @@ nav {
 }
 
 .portfolio-box img {
-  width: 280px;
-  height: 280px;
+  width: 480px;
+  height: 380px;
 }
 
 /*Contact styles*/
