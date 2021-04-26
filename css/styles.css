@@ -237,16 +237,18 @@ nav {
 .about-text {
   width: 50%;
   color: #fff;
+  padding: 0;
 }
 
-.about-me .about-text h3 {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: 100;
+.about-me .about-text .intro {
+  padding-bottom: 5px;
+
 }
 
 .about-me .about-text p {
   padding-bottom: 50px;
+  font-size: 2rem;
+
 }
 
 /*services styles*/
