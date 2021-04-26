@@ -600,6 +600,10 @@ footer p {
     padding: 80px 0;
   }
 
+  .contact-intro h2 {
+    font-size: 2rem;
+  }
+
   .contact-container .social-media {
     text-align: center;
 
