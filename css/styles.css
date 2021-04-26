@@ -101,6 +101,7 @@ nav {
 
 .nav-links li:hover {
   transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
 }
 
 /*headline section styles*/
@@ -318,8 +319,8 @@ nav {
 }
 
 .portfolio-container .portfolio-box:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+  transition: transform 1s ease-in-out;
 }
 
 .portfolio-box img {
@@ -480,6 +481,7 @@ footer p {
 
   .headline {
     width: 100%;
+    margin: 0;
 
   }
 
