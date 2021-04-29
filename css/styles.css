@@ -375,10 +375,15 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   padding: 60px;
+  width: 100%;
 }
 
 .contact-container .fiverr {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .contact-container .fiverr a:hover {
@@ -387,8 +392,9 @@ nav {
 }
 
 .contact-container .fiverr img {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 80px;
+  padding-left: 15px;
 
 }
 
