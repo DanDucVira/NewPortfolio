@@ -89,6 +89,7 @@ nav {
   background: #0f4c75;
   color: white;
   border-bottom: 2px solid #fff;
+  z-index: 99;
 }
 
 .burger,
@@ -353,11 +354,13 @@ nav {
 
 .portfolio-container .portfolio-box {
   width: 100%;
+
 }
 
 .portfolio-box img {
   width: 580px;
   height: 380px;
+  border-radius: 5px;
 }
 
 /*Contact styles*/
