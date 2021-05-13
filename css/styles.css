@@ -660,9 +660,14 @@ footer p {
   }
 
   .portfolio-container .portfolio-box img {
-    width: 300px;
-    height: 300px;
+    width: 95%;
 
+
+  }
+
+  .portfolio-container .portfolio-box img:hover {
+    transform: none;
+    transition: none;
   }
 
   .contact-me {
