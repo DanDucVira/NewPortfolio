@@ -382,10 +382,70 @@ nav {
 
 .contact-container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 60px;
+  padding: 85px;
+  flex-direction: row;
+}
 
+.contact-container .social-media {
+  margin: 0 5rem;
+
+
+}
+
+.contact-container .social-media a {
+  padding: 0 2rem;
+}
+
+.contact-container .social-media i:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0f4c75;
+  padding: 25px;
+
+
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 35px;
+  border: 1px solid #0f4c75;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-top: 35px;
+  border: 1px solid #0f4c75;
+  resize: none;
+  outline: none;
+}
+
+.btnForm {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 10px 0;
+  background: #0f4c75;
+  color: white;
+  font-weight: bold;
+}
+
+.btnForm:hover {
+  cursor: pointer;
+}
+
+.social-media {
+  width: 50%;
 }
 
 .contact-container .fiverr {
@@ -410,21 +470,11 @@ nav {
 
 
 
-.contact-container .social-media {
-  margin: 0 5rem;
-  align-content: center;
-  align-self: center;
-  padding-top: 4rem;
-}
 
-.contact-container .social-media a {
-  padding: 0 2rem;
-}
 
-.contact-container .social-media i:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s ease-in-out;
-}
+
+
+
 
 /*Footer Styles*/
 footer {
@@ -690,6 +740,7 @@ footer p {
     padding: 5px;
     margin: 15px;
   }
+
 
 
   footer {
