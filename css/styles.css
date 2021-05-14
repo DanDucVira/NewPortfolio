@@ -403,6 +403,10 @@ nav {
   transition: transform 0.5s ease-in-out;
 }
 
+.fas.fa-envelope {
+  margin-right: 15px;
+}
+
 .email {
   font-size: 4rem;
   color: #0f4c75;
@@ -667,19 +671,18 @@ footer p {
   }
 
   .contact-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 15px;
 
 
 
   }
 
-  .contact-container form {
-    width: 100%;
-
-
+  .contact-container .email {
+    font-size: 2.8rem;
 
   }
+
 
   .contact-container .social-media {
     width: 100%;
