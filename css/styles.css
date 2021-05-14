@@ -382,8 +382,10 @@ nav {
 
 .contact-container {
   display: flex;
-  padding: 85px;
-  flex-direction: row;
+  padding: 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-container .social-media {
@@ -401,77 +403,12 @@ nav {
   transition: transform 0.5s ease-in-out;
 }
 
-form {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #0f4c75;
-  padding: 25px;
-
+.email {
+  font-size: 4rem;
+  color: #0f4c75;
+  padding-bottom: 55px;
 
 }
-
-form input {
-  width: 100%;
-  padding: 15px;
-  margin-top: 35px;
-  border: 1px solid #0f4c75;
-  outline: none;
-}
-
-textarea {
-  width: 100%;
-  padding: 15px;
-  margin-top: 35px;
-  border: 1px solid #0f4c75;
-  resize: none;
-  outline: none;
-}
-
-.btnForm {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  margin: 10px 0;
-  background: #0f4c75;
-  color: white;
-  font-weight: bold;
-}
-
-.btnForm:hover {
-  cursor: pointer;
-}
-
-.social-media {
-  width: 50%;
-}
-
-.contact-container .fiverr {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.contact-container .fiverr a:hover {
-  cursor: pointer;
-
-}
-
-.contact-container .fiverr img {
-  width: 65px;
-  height: 50px;
-  padding-left: 15px;
-
-}
-
-
-
-
-
 
 
 
@@ -729,16 +666,23 @@ footer p {
     text-align: center;
   }
 
-  .contact-container .social-media {
-    text-align: center;
+  .contact-container {
+    flex-direction: column-reverse;
+    padding: 15px;
 
 
 
   }
 
-  .contact-container .social-media i {
-    padding: 5px;
-    margin: 15px;
+  .contact-container form {
+    width: 100%;
+
+
+
+  }
+
+  .contact-container .social-media {
+    width: 100%;
   }
 
 
