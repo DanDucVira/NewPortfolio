@@ -318,6 +318,12 @@ nav {
   height: 96px;
 }
 
+.tech-box p {
+  color: #0f4c75;
+  font-weight: bold;
+  ;
+}
+
 /*Portfolio styles*/
 .portfolio {
   background: #0f4c75;
